@@ -6,9 +6,13 @@ local LATER_DRAG_FACTOR = 2.0
 
 motorboat={}
 motorboat.gravity = tonumber(minetest.settings:get("movement_gravity")) or 9.8
-motorboat.fuel = {['biofuel:biofuel'] = 1,['biofuel:bottle_fuel'] = 1,
-                ['biofuel:phial_fuel'] = 0.25, ['biofuel:fuel_can'] = 10}
-
+motorboat.fuel = {
+    ['biofuel:biofuel'] = 1,
+    ['biofuel:bottle_fuel'] = 1,
+    ['biofuel:phial_fuel'] = 0.25,
+    ['biofuel:fuel_can'] = 10
+    ["basic_materials:oil_extract"] = 1
+}
 motorboat.colors ={
     black='#2b2b2b',
     blue='#0063b0',
