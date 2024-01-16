@@ -10,7 +10,7 @@ motorboat.fuel = {
     ['biofuel:biofuel'] = 1,
     ['biofuel:bottle_fuel'] = 1,
     ['biofuel:phial_fuel'] = 0.25,
-    ['biofuel:fuel_can'] = 10
+    ['biofuel:fuel_can'] = 10,
     ["basic_materials:oil_extract"] = 1
 }
 motorboat.colors ={
