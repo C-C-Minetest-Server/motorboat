@@ -14,6 +14,7 @@ for name, fuel in pairs({
     ['biofuel:phial_fuel'] = 0.25,
     ['biofuel:fuel_can'] = 10,
     ['airutils:biofuel'] = 1,
+    ['basic_materials:oil_extract'] = 1,
 }) do
     if core.registered_items[name] then
         motorboat.fuel[name] = fuel
